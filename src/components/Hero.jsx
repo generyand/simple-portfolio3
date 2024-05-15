@@ -19,7 +19,7 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.1 }}
             viewport={{ once: true }}
           >
-            <h1 className="mb-2 lg:mb-4">Renz Ivan Polancos</h1>
+            <h1 className="mb-4 lg:mb-8">Renz Ivan Polancos</h1>
             <p className="max-w-lg mx-auto mb-4 text-base lg:mb-8 lg:text-lg">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
               quasi animi voluptatem dolores magni velit voluptates libero
