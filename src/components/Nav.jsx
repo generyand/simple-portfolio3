@@ -23,7 +23,7 @@ export default function Nav() {
           <ul className="flex gap-12 text-xl">
             <li>
               <a
-                className="transition-all cursor-pointer hover:text-sky-400"
+                className="transition-all cursor-pointer hover:underline"
                 href="#"
               >
                 Home
@@ -32,34 +32,34 @@ export default function Nav() {
 
             <li>
               <a
-                className="transition-all cursor-pointer hover:text-sky-400"
+                className="transition-all cursor-pointer hover:underline"
                 href="#about"
               >
                 About
               </a>
             </li>
 
-            <li>
+            {/* <li>
               <a
-                className="transition-all cursor-pointer hover:text-sky-400"
+                className="transition-all cursor-pointer hover:underline"
                 href="#skills"
               >
                 Skills
-              </a>
-            </li>
-
-            {/* <li>
-              <a
-                className="transition-all cursor-pointer hover:text-sky-400"
-                href="#projects"
-              >
-                Projects
               </a>
             </li> */}
 
             <li>
               <a
-                className="transition-all cursor-pointer hover:text-sky-400"
+                className="transition-all cursor-pointer hover:underline"
+                href="#projects"
+              >
+                Projects
+              </a>
+            </li>
+
+            <li>
+              <a
+                className="transition-all cursor-pointer hover:underline"
                 href="#certificates"
               >
                 Certificates
@@ -68,7 +68,7 @@ export default function Nav() {
 
             <li>
               <a
-                className="transition-all cursor-pointer hover:text-sky-400"
+                className="transition-all cursor-pointer hover:underline"
                 href="#contact"
               >
                 Contact
