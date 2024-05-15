@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply bg-slate-900 scroll-smooth;
+  }
+
+  h1 {
+    @apply text-5xl font-bold lg:text-7xl;
+  }
+
+  h2 {
+    @apply text-3xl font-bold lg:text-5xl;
+  }
+
+  h3 {
+    @apply text-xl font-bold lg:text-3xl;
+  }
+
+  h4 {
+    @apply text-lg font-bold lg:text-xl;
+  }
+
+  p {
+    @apply text-base lg:text-lg;
+  }
+
+  .outlined {
+    outline: 1px solid red;
+  }
+
+  .mobile-nav {
+    @apply fixed top-0 right-0 h-screen max-w-screen-sm min-w-full text-white transition-all opacity-0 z-[-999] bg-slate-800 translate-x-[100vw];
+  }
+
+  .active {
+    @apply block translate-x-0 opacity-100 z-[999] lg:hidden;
+  }
+
+  header {
+    /* @apply; */
+  }
+
+  .nav-wrapper {
+    @apply fixed top-0 z-10 w-full backdrop-blur-2xl;
+  }
+
+  .hero {
+    @apply flex flex-col justify-between px-8 mx-auto text-white mt-28 lg:mt-52 max-w-screen-2xl lg:px-24;
+  }
+
+  main {
+    @apply flex flex-col justify-between px-8 mx-auto text-white max-w-screen-2xl lg:px-24;
+  }
+
+  footer {
+    @apply flex flex-col justify-between w-full px-8 pt-16 mx-auto mb-12 text-white lg:gap-12 lg:pt-20 max-w-screen-2xl lg:px-24 md:flex-row;
+  }
+}
