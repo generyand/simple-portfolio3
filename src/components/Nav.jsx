@@ -14,7 +14,7 @@ export default function Nav() {
         {/* LOGO */}
         <div className="cursor-pointer logo">
           <a href="#">
-            <h1 className="text-xl italic font-bold">JCG</h1>
+            <h1 className="text-xl italic font-bold">Ivan</h1>
           </a>
         </div>
 
@@ -79,7 +79,7 @@ export default function Nav() {
 
         {/* MENU BUTTON */}
         <button onClick={toggleMenu} className="visible lg:hidden menu-btn">
-          <i className="fa-solid fa-bars-staggered | text-2xl"></i>
+          <i className="fa-solid fa-bars | text-2xl"></i>
         </button>
       </nav>
     </div>

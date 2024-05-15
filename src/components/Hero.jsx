@@ -10,7 +10,7 @@ export default function Hero() {
         className={`flex flex-col lg:flex-row gap-8 lg:gap-16 mb-8 lg:mb-16`}
       >
         <div
-          className={`flex flex-col items-center justify-center flex-1 text-center lg:text-start lg:items-start`}
+          className={`flex flex-col items-center justify-center flex-1 text-center`}
         >
           {/* NAME AND TAGLINE */}
           <motion.div
@@ -19,15 +19,17 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.1 }}
             viewport={{ once: true }}
           >
-            <h1 className="mb-2 lg:mb-4">Jhon Carlo Gealon</h1>
-            <p className="mb-4 text-base lg:mb-8 lg:text-lg">
-              Empowering Tomorrow's Technology Today: Crafting Digital Solutions
-              with Code and Creativity.
+            <h1 className="mb-2 lg:mb-4">Renz Ivan Polancos</h1>
+            <p className="max-w-lg mx-auto mb-4 text-base lg:mb-8 lg:text-lg">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+              quasi animi voluptatem dolores magni velit voluptates libero
+              asperiores nulla tempora, error voluptatum ipsam, labore quaerat
+              rem? Odit cupiditate quia natus?
             </p>
           </motion.div>
 
           {/* CALL TO ACTION */}
-          <motion.a
+          {/* <motion.a
             initial={{ opacity: 0, y: "40px" }}
             whileInView={{ opacity: 1, y: "0px" }}
             transition={{ duration: 0.5, delay: 0.2 }}
@@ -38,11 +40,11 @@ export default function Hero() {
           >
             See My Projects
             <i className="hidden fa-solid fa-arrow-right lg:inline"></i>
-          </motion.a>
+          </motion.a> */}
         </div>
 
         {/* ILLUSTRATION */}
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: "40px" }}
           whileInView={{ opacity: 1, y: "0px" }}
           transition={{ duration: 0.5, delay: 0.3 }}
@@ -50,16 +52,16 @@ export default function Hero() {
           className={`flex-1 max-w-lg mx-auto lg:max-w-none`}
         >
           <Lottie animationData={animationData} />
-        </motion.div>
+        </motion.div> */}
       </div>
 
       {/* HORIZONTAL LINE */}
-      <motion.hr
+      {/* <motion.hr
         initial={{ opacity: 0, y: "40px" }}
         whileInView={{ opacity: 1, y: "0px" }}
         transition={{ duration: 0.5, delay: 0.4 }}
         viewport={{ once: true }}
-      />
+      /> */}
     </div>
   );
 }

@@ -4,7 +4,11 @@
 
 @layer base {
   html {
-    @apply bg-slate-900 scroll-smooth;
+    @apply bg-neutral-900 scroll-smooth;
+    font-family: "Plus Jakarta Sans", "Poppins" sans-serif;
+  }
+  
+  body {
   }
 
   h1 {
@@ -32,7 +36,7 @@
   }
 
   .mobile-nav {
-    @apply fixed top-0 right-0 h-screen max-w-screen-sm min-w-full text-white transition-all opacity-0 z-[-999] bg-slate-800 translate-x-[100vw];
+    @apply fixed top-0 right-0 h-screen max-w-screen-sm min-w-full text-white transition-all opacity-0 z-[-999] bg-neutral-900 translate-x-[-100vw];
   }
 
   .active {
@@ -44,7 +48,7 @@
   }
 
   .nav-wrapper {
-    @apply fixed top-0 z-10 w-full backdrop-blur-2xl;
+    @apply fixed top-0 z-10 w-full bg-neutral-800;
   }
 
   .hero {
