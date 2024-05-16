@@ -64,4 +64,9 @@
   footer {
     @apply justify-between w-full mt-16 text-white bg-neutral-800 lg:mt-20;
   }
+
+  .social-link {
+    @apply text-4xl text-transparent transition bg-white cursor-pointer bg-clip-text lg:text-5xl hover:bg-gradient-to-tl from-blue-500 to-purple-400;
+  }
+
 }

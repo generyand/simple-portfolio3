@@ -53,7 +53,7 @@ export default function Contact() {
             return (
               <a key={social.title} href={social.info} target="_blank">
                 <i
-                  className={`${social.icon} | text-4xl lg:text-5xl text-transparent bg-clip-text bg-slate-50 hover:bg-gradient-to-r to-blue-400 from-purple-400 cursor-pointer transition`}
+                  className={`${social.icon} | social-link`}
                 ></i>
               </a>
             );
