@@ -13,7 +13,7 @@ export default function Hero() {
         <div
           className={`flex flex-col items-center justify-center flex-1 text-center`}
         >
-          {/* NAME AND TAGLINE */}
+          {/* AVATAR, NAME, AND TAGLINE */}
           <motion.div
             initial={{ opacity: 0, y: "40px" }}
             whileInView={{ opacity: 1, y: "0px" }}
@@ -21,7 +21,6 @@ export default function Hero() {
             viewport={{ once: true }}
           >
             <div className="flex items-center justify-center overflow-hidden rounded-full bg-gradient-to-r from-blue-600 to-purple-500 aspect-square w-[30%] mx-auto mb-4">
-              {/* <img src={avatar} alt="" className="position" /> */}
               <div
                 className="w-full h-full bg-center bg-no-repeat bg-contain outlined bg-red"
                 style={{ backgroundImage: `url(${avatar})` }}
@@ -34,26 +33,28 @@ export default function Hero() {
               </span>
             </h1>
             <p className="max-w-lg mx-auto mb-4 text-base lg:mb-8 lg:text-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
-              quasi animi voluptatem dolores magni velit voluptates libero
-              asperiores nulla tempora, error voluptatum ipsam, labore quaerat
-              rem? Odit cupiditate quia natus?
+              I am a dedicated IT student with a passion for learning. While I'm still in college, I am actively learning
+              and growing every day. My enthusiasm for technology drives me to
+              continually seek out new knowledge and challenges.
             </p>
           </motion.div>
 
           {/* CALL TO ACTION */}
-          {/* <motion.a
+          <motion.div
             initial={{ opacity: 0, y: "40px" }}
             whileInView={{ opacity: 1, y: "0px" }}
             transition={{ duration: 0.5, delay: 0.2 }}
             viewport={{ once: true }}
-            className={`flex items-center gap-2 px-4 py-2 text-center rounded-md cursor-pointer transition-colors bg-sky-500 lg:text-start hover:bg-sky-400`}
-            type="button"
-            href="#projects"
+            className="p-[2px] overflow-hidden rounded-md bg-gradient-to-r from-blue-600 to-purple-500"
           >
-            See My Projects
-            <i className="hidden fa-solid fa-arrow-right lg:inline"></i>
-          </motion.a> */}
+            <a
+              className={`flex items-center gap-2 px-4 py-2 text-center rounded-[calc(0.375rem-2px)] cursor-pointer transition-colors lg:text-start hover:bg-transparent bg-neutral-900`}
+              type="button"
+              href="#contact"
+            >
+              Get In Touch
+            </a>
+          </motion.div>
         </div>
 
         {/* ILLUSTRATION */}

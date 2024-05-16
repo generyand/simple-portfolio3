@@ -38,11 +38,11 @@
   }
 
   .mobile-nav {
-    @apply fixed top-0 right-0 h-screen max-w-screen-sm min-w-full text-white transition-all opacity-0 z-[-999] bg-neutral-900 translate-x-[-100vw];
+    @apply fixed top-0 right-0 h-screen max-w-screen-sm min-w-full text-white transition-[cubic-bezier(.76,0,.25,.99)] opacity-0 z-[-999] bg-neutral-900 w-0 translate-x-[-100vw];
   }
 
   .active {
-    @apply block translate-x-0 opacity-100 z-[999] lg:hidden;
+    @apply block opacity-100 z-[999] lg:hidden translate-x-0;
   }
 
   header {
