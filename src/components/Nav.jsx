@@ -8,7 +8,7 @@ export default function Nav() {
     setMenuIsActive(!menuIsActive);
   };
   return (
-    <div className="nav-wrapper">
+    <div className="nav-wrapper font-jakarta">
       <MobileNav menuIsActive={menuIsActive} toggleMenu={toggleMenu} />
       <nav className="flex justify-between px-8 py-3 mx-auto text-white max-w-screen-2xl lg:px-24 lg:py-6">
         {/* LOGO */}

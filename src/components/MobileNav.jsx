@@ -20,7 +20,7 @@ export default function MobileNav({ menuIsActive, toggleMenu }) {
         <li className="flex justify-center w-full">
           <a
             onClick={toggleMenu}
-            className="w-full transition-all cursor-pointer hover:text-sky-400"
+            className="w-full transition-all cursor-pointer hover:underline"
             href="#"
           >
             Home
@@ -30,7 +30,7 @@ export default function MobileNav({ menuIsActive, toggleMenu }) {
         <li className="flex justify-center w-full">
           <a
             onClick={toggleMenu}
-            className="w-full transition-all cursor-pointer hover:text-sky-400"
+            className="w-full transition-all cursor-pointer hover:underline"
             href="#about"
           >
             About Me
@@ -40,7 +40,7 @@ export default function MobileNav({ menuIsActive, toggleMenu }) {
         {/* <li className="flex justify-center w-full">
           <a
             onClick={toggleMenu}
-            className="w-full transition-all cursor-pointer hover:text-sky-400"
+            className="w-full transition-all cursor-pointer hover:underline"
             href="#skills"
           >
             Skills
@@ -50,7 +50,7 @@ export default function MobileNav({ menuIsActive, toggleMenu }) {
         <li className="flex justify-center w-full">
           <a
             onClick={toggleMenu}
-            className="w-full transition-all cursor-pointer hover:text-sky-400"
+            className="w-full transition-all cursor-pointer hover:underline"
             href="#projects"
           >
             Projects
@@ -60,7 +60,7 @@ export default function MobileNav({ menuIsActive, toggleMenu }) {
         <li className="flex justify-center w-full">
           <a
             onClick={toggleMenu}
-            className="w-full transition-all cursor-pointer hover:text-sky-400"
+            className="w-full transition-all cursor-pointer hover:underline"
             href="#certificates"
           >
             Certificates
@@ -70,7 +70,7 @@ export default function MobileNav({ menuIsActive, toggleMenu }) {
         <li className="flex justify-center w-full">
           <a
             onClick={toggleMenu}
-            className="w-full transition-all cursor-pointer hover:text-sky-400"
+            className="w-full transition-all cursor-pointer hover:underline"
             href="#contact"
           >
             Contact

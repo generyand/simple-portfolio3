@@ -2,6 +2,7 @@ import React from "react";
 import Lottie from "lottie-react";
 import animationData from "../assets//illustration/illustration-1.json";
 import { motion } from "framer-motion";
+import avatar from "../assets/illustration/avatar.webp";
 
 export default function Hero() {
   return (
@@ -19,7 +20,19 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.1 }}
             viewport={{ once: true }}
           >
-            <h1 className="mb-4 lg:mb-8">Renz Ivan Polancos</h1>
+            <div className="flex items-center justify-center overflow-hidden rounded-full bg-gradient-to-r from-blue-600 to-purple-500 aspect-square w-[30%] mx-auto mb-4">
+              {/* <img src={avatar} alt="" className="position" /> */}
+              <div
+                className="w-full h-full bg-center bg-no-repeat bg-contain outlined bg-red"
+                style={{ backgroundImage: `url(${avatar})` }}
+              ></div>
+            </div>
+            <h1 className="mb-4 lg:mb-8">
+              Renz Ivan{" "}
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-500">
+                Polancos
+              </span>
+            </h1>
             <p className="max-w-lg mx-auto mb-4 text-base lg:mb-8 lg:text-lg">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
               quasi animi voluptatem dolores magni velit voluptates libero
