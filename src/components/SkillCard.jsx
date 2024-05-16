@@ -10,7 +10,11 @@ export default function SkillCard({ skillTitle, skillIcon }) {
       viewport={{ once: true }}
       className="flex flex-col items-center justify-center p-4 bg-neutral-800"
     >
-      <img className="object-contain aspect-square w-[80%]" src={skillIcon} alt="" />
+      <img
+        className="object-contain aspect-square w-[80%]"
+        src={skillIcon}
+        alt=""
+      />
       <p>{skillTitle}</p>
     </motion.div>
   );
