@@ -1,7 +1,18 @@
 import React from "react";
 import { motion } from "framer-motion";
+import Skill1 from "../assets/illustration/skill1.svg";
+import Skill2 from "../assets/illustration/skill2.svg";
+import Skill3 from "../assets/illustration/skill3.svg";
+import Skill4 from "../assets/illustration/skill4.svg";
+import SkillCard from "./SkillCard";
 
 export default function Skills() {
+  const skills = [
+    { title: "Graphic Designing", icon: Skill1 },
+    { title: "UI/UX Designing", icon: Skill2 },
+    { title: "Web Development", icon: Skill3 },
+    { title: "Video Editing", icon: Skill4 },
+  ];
   return (
     /* SKILLS */
     <motion.div
@@ -9,18 +20,22 @@ export default function Skills() {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, delay: 0.1 }}
       viewport={{ once: true }}
-      className="w-full max-w-md pt-20 mx-auto text-center"
+      className="w-full pt-20 mx-auto text-center"
       id="skills"
     >
-      <h2 className="mb-8">Skills</h2>
+      <h2 className="mb-8">What I am Good At</h2>
 
-      {/* ICONS */}
-      <div className="flex justify-around w-full languages">
-        <i className="fa-brands fa-java | text-5xl lg:text-6xl hover:text-sky-400 cursor-pointer transition"></i>
-        <i className="fa-brands fa-js | text-5xl lg:text-6xl hover:text-sky-400 cursor-pointer transition"></i>
-        <i className="fa-brands fa-html5 | text-5xl lg:text-6xl hover:text-sky-400 cursor-pointer transition"></i>
-        <i className="fa-brands fa-css3-alt | text-5xl lg:text-6xl hover:text-sky-400 cursor-pointer transition"></i>
-        <i className="fa-brands fa-php | text-5xl lg:text-6xl hover:text-sky-400 cursor-pointer transition"></i>
+      {/* Skill Cards */}
+      <div className="grid grid-cols-1 gap-4 md:gap-8 lg:gap-12 md:grid-cols-2 lg:grid-cols-4">
+        {skills.map((skill) => {
+          return (
+            <SkillCard
+              key={skill.title}
+              skillTitle={skill.title}
+              skillIcon={skill.icon}
+            />
+          );
+        })}
       </div>
     </motion.div>
   );

@@ -8,13 +8,15 @@ import Cert4 from "../assets/img/cert4.jpg";
 import Cert5 from "../assets/img/cert5.jpg";
 
 export default function Certificates() {
-  const certs = [
-    { image: Cert1, title: "Programming Basics", platform: "Great Learning" },
-    { image: Cert5, title: "Responsive Web Design", platform: "FreeCodeCamp" },
-    { image: Cert2, title: "Navigating Google Workspace", platform: "DICT" },
-    { image: Cert3, title: "Designing Presentation Slides", platform: "DICT" },
-    { image: Cert4, title: "Microsoft Productivity Tools", platform: "DICT" },
-  ];
+  
+    const certs = [
+      { image: Cert1, title: "Designing Presentation Slides", platform: "DICT" },
+      { image: Cert2, title: "Navigating Google Workspace", platform: "DICT" },
+      { image: Cert3, title: "Microsoft Productivity Tools", platform: "DICT" },
+      { image: Cert4, title: "Programming Basics", platform: "Great Learning Academy" },
+      { image: Cert5, title: "Responsive Web Design", platform: "FreeCodeCamp" },
+    ];
+
   return (
     /* CERTIFICATES CONTAINER */
     <div className="pt-20" id="certificates">
@@ -40,14 +42,6 @@ export default function Certificates() {
           />
         ))}
       </div>
-
-      <motion.hr
-        initial={{ opacity: 0, y: "40px" }}
-        whileInView={{ opacity: 1, y: "0px" }}
-        transition={{ duration: 0.5, delay: 0.1 }}
-        viewport={{ once: true }}
-        className="mt-16"
-      />
     </div>
   );
 }

@@ -6,8 +6,8 @@ import Contact from "./Contact";
 
 export default function Main() {
   return (
-    <main>
-      <AboutMe />
+    <main className="">
+      {/* <AboutMe /> */}
       <Skills />
       <Certificates />
     </main>

@@ -30,23 +30,23 @@ export default function Nav() {
               </a>
             </li>
 
-            <li>
+            {/* <li>
               <a
                 className="transition-all cursor-pointer hover:underline"
                 href="#about"
               >
                 About
               </a>
-            </li>
+            </li> */}
 
-            {/* <li>
+            <li>
               <a
                 className="transition-all cursor-pointer hover:underline"
                 href="#skills"
               >
                 Skills
               </a>
-            </li> */}
+            </li>
 
             <li>
               <a

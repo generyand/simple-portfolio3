@@ -27,7 +27,7 @@ export default function MobileNav({ menuIsActive, toggleMenu }) {
           </a>
         </li>
 
-        <li className="flex justify-center w-full">
+        {/* <li className="flex justify-center w-full">
           <a
             onClick={toggleMenu}
             className="w-full transition-all cursor-pointer hover:underline"
@@ -35,9 +35,9 @@ export default function MobileNav({ menuIsActive, toggleMenu }) {
           >
             About Me
           </a>
-        </li>
+        </li> */}
 
-        {/* <li className="flex justify-center w-full">
+        <li className="flex justify-center w-full">
           <a
             onClick={toggleMenu}
             className="w-full transition-all cursor-pointer hover:underline"
@@ -45,7 +45,7 @@ export default function MobileNav({ menuIsActive, toggleMenu }) {
           >
             Skills
           </a>
-        </li> */}
+        </li>
 
         <li className="flex justify-center w-full">
           <a
