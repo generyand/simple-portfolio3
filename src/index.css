@@ -5,6 +5,10 @@
 @tailwind utilities;
 
 @layer base {
+  .outlined {
+    outline: 1px solid red;
+  }
+
   html {
     @apply bg-neutral-900 scroll-smooth;
     @apply font-poppins;
@@ -31,10 +35,6 @@
 
   p {
     @apply text-base lg:text-lg;
-  }
-
-  .outlined {
-    outline: 1px solid red;
   }
 
   .mobile-nav {
@@ -68,5 +68,4 @@
   .social-link {
     @apply text-4xl text-transparent transition bg-white cursor-pointer bg-clip-text lg:text-5xl hover:bg-gradient-to-tl from-blue-500 to-purple-400;
   }
-
 }

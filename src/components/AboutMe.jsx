@@ -40,15 +40,6 @@ export default function AboutMe() {
           </p>
         </div>
       </motion.div>
-
-      {/* HORIZONTAL LINE */}
-      {/* <motion.hr
-        initial={{ opacity: 0, y: "40px" }}
-        whileInView={{ opacity: 1, y: "0px" }}
-        transition={{ duration: 0.5, delay: 0.4 }}
-        viewport={{ once: true }}
-        className="mb-24"
-      /> */}
     </>
   );
 }

@@ -33,9 +33,10 @@ export default function Hero() {
               </span>
             </h1>
             <p className="max-w-lg mx-auto mb-4 text-base lg:mb-8 lg:text-lg">
-              I am a dedicated IT student with a passion for learning. While I'm still in college, I am actively learning
-              and growing every day. My enthusiasm for technology drives me to
-              continually seek out new knowledge and challenges.
+              I am a dedicated IT student with a passion for learning. While I'm
+              still in college, I am actively learning and growing every day. My
+              enthusiasm for technology drives me to continually seek out new
+              knowledge and challenges.
             </p>
           </motion.div>
 
@@ -56,26 +57,7 @@ export default function Hero() {
             </a>
           </motion.div>
         </div>
-
-        {/* ILLUSTRATION */}
-        {/* <motion.div
-          initial={{ opacity: 0, y: "40px" }}
-          whileInView={{ opacity: 1, y: "0px" }}
-          transition={{ duration: 0.5, delay: 0.3 }}
-          viewport={{ once: true }}
-          className={`flex-1 max-w-lg mx-auto lg:max-w-none`}
-        >
-          <Lottie animationData={animationData} />
-        </motion.div> */}
       </div>
-
-      {/* HORIZONTAL LINE */}
-      {/* <motion.hr
-        initial={{ opacity: 0, y: "40px" }}
-        whileInView={{ opacity: 1, y: "0px" }}
-        transition={{ duration: 0.5, delay: 0.4 }}
-        viewport={{ once: true }}
-      /> */}
     </div>
   );
 }
