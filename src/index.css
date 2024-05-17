@@ -38,7 +38,7 @@
   }
 
   .mobile-nav {
-    @apply fixed top-0 right-0 h-screen max-w-screen-sm min-w-full text-white transition-[cubic-bezier(.76,0,.25,.99)] opacity-0 z-[-999] bg-neutral-900 w-0 translate-x-[-100vw];
+    @apply fixed top-0 right-0 h-screen max-w-screen-sm min-w-full text-white transition-[cubic-bezier(0.23,1,0.32,1)] opacity-0 z-[-999] bg-neutral-900 w-0 translate-x-[-100vw];
   }
 
   .active {
