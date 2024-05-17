@@ -80,7 +80,7 @@ export default function Contact() {
           }} */
           className="flex flex-col justify-center flex-1 w-full gap-2 "
         >
-          <p className="text-xl uppercase">Contact Me</p>
+          <p className="text-lg uppercase">Contact Me</p>
           {contacts.map((contact) => {
             return (
               <div
@@ -90,7 +90,7 @@ export default function Contact() {
                 <i
                   className={`${contact.icon} | text-2xl lg:text-3xl cursor-pointer transition`}
                 ></i>
-                <p className="text-base truncate">{contact.info}</p>
+                <p className="text-sm truncate md:text-base">{contact.info}</p>
               </div>
             );
           })}
@@ -116,7 +116,7 @@ export default function Contact() {
         className="w-full gap-4 mx-auto max-w-screen-2xl lg:mx-36 lg:px-24"
       >
         <div className="wrapper | border-t py-8 px-4 lg:px-0">
-          <p className="text-center lg:text-end">
+          <p className="text-sm text-center lg:text-end">
             © 2024 Renz Ivan Polancos. All Rights Reserved
           </p>
         </div>
