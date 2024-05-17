@@ -9,7 +9,7 @@ export default function Projects() {
     ];
 
     return (
-        /* CERTIFICATES CONTAINER */
+        /* PROJECTS CONTAINER */
         <div className="pt-20" id="projects">
             <motion.h2
                 initial={{ opacity: 0, y: "40px" }}
@@ -21,7 +21,7 @@ export default function Projects() {
                 Projects
             </motion.h2>
             <div
-                className="grid grid-flow-row gap-8 cols-1 place md:grid-cols-2 lg:grid-cols-3 outlined"
+                className="grid grid-flow-row gap-8 cols-1 place md:grid-cols-2 lg:grid-cols-3"
             >
                 {projects.map((project) => (
                     <ProjectCard

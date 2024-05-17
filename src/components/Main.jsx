@@ -9,8 +9,8 @@ export default function Main() {
   return (
     <main className="">
       {/* <AboutMe /> */}
-      <Projects />
       <Skills />
+      <Projects />
       <Certificates />
     </main>
   );
