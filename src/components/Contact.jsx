@@ -32,15 +32,15 @@ export default function Contact() {
   return (
     /* CONTACT */
     <>
-      <div className="flex flex-col justify-center w-full gap-4 p-8 mx-auto max-w-screen-2xl lg:gap-8 lg:px-24 md:flex-row">
+      <div
+        /* initial={{ opacity: 0, y: "40px" }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, delay: 0.1 }}
+        viewport={{ once: true }} */
+        className="flex flex-col justify-center w-full gap-4 p-8 mx-auto max-w-screen-2xl lg:gap-8 lg:px-24 md:flex-row"
+      >
         {/* Social Links */}
-        <motion.div
-          initial={{ opacity: 0, y: "40px" }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.1 }}
-          viewport={{ once: true }}
-          className="flex flex-col flex-1 w-full mb-8"
-        >
+        <div className="flex flex-col flex-1 w-full mb-8">
           <div className="logo | flex gap-2 mb-2 lg:mb-4 items-center">
             {/* <img className="w-8 h-8" src="" alt="" /> */}
             {/* <div className="flex items-center justify-center p-1 bg-white rounded-full aspect-square">
@@ -59,11 +59,11 @@ export default function Contact() {
               );
             })}
           </div>
-        </motion.div>
+        </div>
 
         {/* Contact Infos */}
-        <motion.div
-          initial={{
+        <div
+          /* initial={{
             opacity: 0,
             y: "40px",
           }}
@@ -77,15 +77,16 @@ export default function Contact() {
           }}
           viewport={{
             once: true,
-          }}
+          }} */
           className="flex flex-col justify-center flex-1 w-full gap-2 "
         >
           <p className="text-xl uppercase">Contact Me</p>
           {contacts.map((contact) => {
             return (
-              <div 
+              <div
                 key={contact.info}
-              className="flex items-center flex-1 w-full gap-4 min-w-24 bg-neutral-800">
+                className="flex items-center flex-1 w-full gap-4 min-w-24 bg-neutral-800"
+              >
                 <i
                   className={`${contact.icon} | text-2xl lg:text-3xl cursor-pointer transition`}
                 ></i>
@@ -93,7 +94,7 @@ export default function Contact() {
               </div>
             );
           })}
-        </motion.div>
+        </div>
       </div>
 
       <motion.div
