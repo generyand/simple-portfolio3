@@ -32,11 +32,11 @@ export default function Contact() {
   return (
     /* CONTACT */
     <>
-      <div
-        /* initial={{ opacity: 0, y: "40px" }}
+      <motion.div
+        initial={{ opacity: 0, y: "40px" }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.1 }}
-        viewport={{ once: true }} */
+        viewport={{ once: true }}
         className="flex flex-col justify-center w-full gap-4 p-8 mx-auto max-w-screen-2xl lg:gap-8 lg:px-24 md:flex-row"
       >
         {/* Social Links */}
@@ -95,7 +95,7 @@ export default function Contact() {
             );
           })}
         </div>
-      </div>
+      </motion.div>
 
       <motion.div
         initial={{
