@@ -3,11 +3,13 @@ import Certificates from "./Certificates";
 import AboutMe from "./AboutMe";
 import Skills from "./Skills";
 import Contact from "./Contact";
+import Projects from "./Projects";
 
 export default function Main() {
   return (
     <main className="">
       {/* <AboutMe /> */}
+      <Projects />
       <Skills />
       <Certificates />
     </main>

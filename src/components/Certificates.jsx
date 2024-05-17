@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import { motion } from "framer-motion";
 import CertificateCard from "./CertificateCard";
 import Cert1 from "../assets/img/cert1.jpg";
