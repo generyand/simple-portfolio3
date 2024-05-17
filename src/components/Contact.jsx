@@ -39,7 +39,7 @@ export default function Contact() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.1 }}
           viewport={{ once: true }}
-          className="flex flex-col flex-1 w-full mb-8 outlined"
+          className="flex flex-col flex-1 w-full mb-8"
         >
           <div className="logo | flex gap-2 mb-2 lg:mb-4 items-center">
             {/* <img className="w-8 h-8" src="" alt="" /> */}
