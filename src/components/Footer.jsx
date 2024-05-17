@@ -3,7 +3,7 @@ import Contact from "./Contact";
 
 export default function Footer() {
   return (
-    <footer id="contact" >
+    <footer className="" id="contact" >
       <Contact />
     </footer>
   );

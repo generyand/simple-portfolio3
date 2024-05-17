@@ -62,7 +62,7 @@
   }
 
   footer {
-    @apply justify-between w-full mt-16 text-white bg-neutral-800 lg:mt-20;
+    @apply flex flex-col items-center justify-center w-full mt-16 text-white bg-neutral-800 lg:mt-20;
   }
 
   .social-link {
