@@ -3,11 +3,11 @@ import React from "react";
 export default function MobileNav({ menuIsActive, toggleMenu }) {
   return (
     <nav className={`mobile-nav ${menuIsActive ? "active" : ""}`}>
-      <header className="flex justify-between w-full px-8 py-3 bg-neutral-800">
+      <header className="flex justify-end w-full px-8 py-3 bg-neutral-800">
         {/* LOGO */}
-        <div className="cursor-pointer logo">
+        {/* <div className="cursor-pointer logo">
           <h1 className="text-xl italic font-bold">Ivan</h1>
-        </div>
+        </div> */}
 
         {/* MENU TOGGLE BUTTON */}
         <button onClick={toggleMenu} className="menu-btn">

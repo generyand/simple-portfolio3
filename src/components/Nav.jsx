@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import MobileNav from "./MobileNav";
+import logo from "../assets/img/logo.png";
 
 export default function Nav() {
   const [menuIsActive, setMenuIsActive] = useState(false);
@@ -14,7 +15,8 @@ export default function Nav() {
         {/* LOGO */}
         <div className="cursor-pointer logo">
           <a href="#">
-            <h1 className="text-xl italic font-bold">Ivan</h1>
+            {/* <h1 className="text-xl italic font-bold">Ivan</h1> */}
+            <img className="w-8 bg-white rounded-full" src={logo} alt="logo" />
           </a>
         </div>
 

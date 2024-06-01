@@ -62,24 +62,7 @@ export default function Contact() {
         </div>
 
         {/* Contact Infos */}
-        <div
-          /* initial={{
-            opacity: 0,
-            y: "40px",
-          }}
-          whileInView={{
-            opacity: 1,
-            y: "0",
-          }}
-          transition={{
-            duration: 0.5,
-            delay: 0.1,
-          }}
-          viewport={{
-            once: true,
-          }} */
-          className="flex flex-col justify-center flex-1 w-full gap-2 "
-        >
+        <div className="flex flex-col justify-center flex-1 w-full gap-2 ">
           <p className="text-lg uppercase">Contact Me</p>
           {contacts.map((contact) => {
             return (
