@@ -42,10 +42,6 @@ export default function Contact() {
         {/* Social Links */}
         <div className="flex flex-col flex-1 w-full mb-8">
           <div className="logo | flex gap-2 mb-2 lg:mb-4 items-center">
-            {/* <img className="w-8 h-8" src="" alt="" /> */}
-            {/* <div className="flex items-center justify-center p-1 bg-white rounded-full aspect-square">
-            <p className="text-sm italic font-bold text-neutral-800">Renz</p>
-          </div> */}
             <p className="font-semibold">Renz Ivan Polancos</p>
           </div>
 

@@ -8,7 +8,6 @@ import Projects from "./Projects";
 export default function Main() {
   return (
     <main className="">
-      {/* <AboutMe /> */}
       <Skills />
       <Projects />
       <Certificates />

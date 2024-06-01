@@ -4,11 +4,6 @@ export default function MobileNav({ menuIsActive, toggleMenu }) {
   return (
     <nav className={`mobile-nav ${menuIsActive ? "active" : ""}`}>
       <header className="flex justify-end w-full px-8 py-3 bg-neutral-800">
-        {/* LOGO */}
-        {/* <div className="cursor-pointer logo">
-          <h1 className="text-xl italic font-bold">Ivan</h1>
-        </div> */}
-
         {/* MENU TOGGLE BUTTON */}
         <button onClick={toggleMenu} className="menu-btn">
           <i className="fa-solid fa-xmark | text-2xl"></i>
@@ -26,16 +21,6 @@ export default function MobileNav({ menuIsActive, toggleMenu }) {
             Home
           </a>
         </li>
-
-        {/* <li className="flex justify-center w-full">
-          <a
-            onClick={toggleMenu}
-            className="w-full transition-all cursor-pointer hover:underline"
-            href="#about"
-          >
-            About Me
-          </a>
-        </li> */}
 
         <li className="flex justify-center w-full">
           <a

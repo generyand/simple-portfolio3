@@ -15,7 +15,6 @@ export default function Nav() {
         {/* LOGO */}
         <div className="cursor-pointer logo">
           <a href="#">
-            {/* <h1 className="text-xl italic font-bold">Ivan</h1> */}
             <img className="w-8 bg-white rounded-full" src={logo} alt="logo" />
           </a>
         </div>
@@ -31,15 +30,6 @@ export default function Nav() {
                 Home
               </a>
             </li>
-
-            {/* <li>
-              <a
-                className="transition-all cursor-pointer hover:underline"
-                href="#about"
-              >
-                About
-              </a>
-            </li> */}
 
             <li>
               <a
