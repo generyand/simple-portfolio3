@@ -1,7 +1,7 @@
 
 # My Portfolio
 
-This is my portfolio. This is built using ReactJS, TailwindCSS, and Framer Motion
+This is my portfolio. This is built using ReactJS, TailwindCSS, and Framer Motion.
 
 
 
